@@ -13,6 +13,11 @@ const config: DocsThemeConfig = {
   footer: {
     text: "Parsertime Docs",
   },
+  useNextSeoProps() {
+    return {
+      titleTemplate: "%s - Parsertime Docs",
+    };
+  },
 };
 
 export default config;
