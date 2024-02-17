@@ -18,6 +18,9 @@ const config: DocsThemeConfig = {
       titleTemplate: "%s - Parsertime Docs",
     };
   },
+  head: function useHead() {
+    return <link rel="icon" href="/favicon.ico" type="image/x-icon" />;
+  },
 };
 
 export default config;
