@@ -1,18 +1,18 @@
-import React from 'react'
-import { DocsThemeConfig } from 'nextra-theme-docs'
+import React from "react";
+import { DocsThemeConfig } from "nextra-theme-docs";
 
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
+  logo: <span>Parsertime Docs</span>,
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: "https://github.com/lucasdoell/parsertime",
   },
   chat: {
-    link: 'https://discord.com',
+    link: "https://discord.gg/svz3qhVDXM",
   },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  docsRepositoryBase: "https://github.com/lucasdoell/parsertime-docs",
   footer: {
-    text: 'Nextra Docs Template',
+    text: "Parsertime Docs",
   },
-}
+};
 
-export default config
+export default config;
