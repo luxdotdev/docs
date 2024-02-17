@@ -9,7 +9,7 @@ const config: DocsThemeConfig = {
   chat: {
     link: "https://discord.gg/svz3qhVDXM",
   },
-  docsRepositoryBase: "https://github.com/lucasdoell/parsertime-docs",
+  docsRepositoryBase: "https://github.com/lucasdoell/parsertime-docs/tree/main",
   footer: {
     text: "Parsertime Docs",
   },
