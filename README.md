@@ -1,16 +1,16 @@
-# Nextra Docs Template 
+# Parsertime Docs
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+<p align="center">
+  <a href="https://parsertime.app/">
+    <img src="https://parsertime.app/icon.png" height="96">
+    <h3 align="center">Parsertime Docs</h3>
+  </a>
+</p>
 
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
+[![Website](https://img.shields.io/website?style=for-the-badge&labelColor=000&up_message=Operational&url=https%3A%2F%2Fdocs.parsertime.app)](https://parsertime.app)
+![GitHub Repo stars](https://img.shields.io/github/stars/luxdotdev/parsertime-docs?style=for-the-badge&labelColor=000)
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
-
-## Quick Start
-
-Click the button to clone this repository and deploy it on Vercel:
-
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
+This is the repository for the Parsertime documentation. It is built using [Nextra](https://nextra.site) and hosted on [Vercel](https://vercel.com).
 
 ## Local Development
 
