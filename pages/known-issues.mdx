@@ -1,0 +1,67 @@
+import { Callout } from "../components/callout"
+
+# Known Issues
+
+<Callout type="info">
+    If you encounter any issues with Parsertime, please report them to us on
+    [Discord](https://discord.gg/svz3qhVDXM) or send us an email at
+    [help@parsertime.app](mailto:help@parsertime.app). We will do our best to fix the
+    issue as soon as possible.
+</Callout>
+
+There are a few known issues with Parsertime. We are working on fixing these issues 
+and will update this page as we make progress.
+
+## All Issues
+
+### Push maps not showing score
+Push maps do not show the score for each round. This is due to limitations with both
+the in-game Workshop and the log generator. With Overwatch 2's release, the Workshop
+was not updated to support the new Push game mode. This means that the log generator
+cannot generate the score when the push bot is pushed to the end of the map.
+Additionally, there is no way to track the progress of the push bot.
+
+**Severity**: Major
+
+**Fix**: There is no fix for this issue at the moment. We are waiting for the Workshop
+to be updated to support Overwatch 2's new game modes.
+
+### Flashpoint maps only containing 4 rounds
+We are aware of an issue where Flashpoint maps only contain 4 rounds. 
+This seems to be an issue with the log generator. This can lead to some charts and 
+statistics looking incorrect.
+
+![Flashpoint overview bug](/known-issues/flashpoint-bug-1.png)
+*The overview page not showing the round 5 stats for Flashpoint maps.*
+
+![Flashpoint player charts bug](/known-issues/flashpoint-bug-2.png)
+*The player charts showing only 4 rounds for Flashpoint maps. The charts incorrectly 
+show a steep increase in values.*
+
+**Severity**: Minor
+
+**Fix**: The final round stats are visible from the Overview tab. As for the player 
+charts, a fix is reliant on the log generator.
+
+---
+
+### Overview stats table showing incorrect player roles
+Occasionally, the overview stats table will show incorrect player roles.
+This is due to player role being determined by the first character the player picked.
+
+![Incorrect role being displayed](/known-issues/incorrect-roles-bug.png)
+*An example of three players being listed as Damage, when there can only be two Damage players.*
+
+**Severity**: Minor
+
+**Fix**: We are working on a fix for this issue. In the meantime, you can see each player's 
+most played hero from the player selector in the top left corner.
+
+## Non Issues
+### Push maps only showing 1 round
+Push maps only show 1 round in the overview. This is due to the nature of the game mode.
+This is not a bug and will not be changed.
+
+**Severity**: Non-issue
+
+**Fix**: N/A
