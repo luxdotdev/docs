@@ -1,0 +1,92 @@
+import { Callout } from '../components/callout'
+
+# Scrims
+Scrims are the core feature of Parsertime. By uploading your map logs,
+you can see how your team performed in each scrim. You can also see how
+you performed individually, and compare your stats to other players.
+
+## Creating a Scrim
+*Please see the [Introduction](/#collecting-scrim-logs) for instructions on how to collect logs.*
+
+To create a scrim, click the "Create Scrim" button. You will be prompted to upload 
+the logs for the first map of the scrim.
+
+![Create Scrim](/create-scrim.png)
+*The create scrim button on an account with no scrims.*
+
+![Create Scrim Dialog](/create-scrim-dialog.png)
+*The create scrim dialog filled out with the data to create a scrim.*
+
+## Adding Maps to a Scrim
+After you've uploaded your first map, you can add more maps to the scrim by
+dragging and dropping the logs onto the "Add Map" card or by choosing a file.
+
+![Scrim view](/scrim-view.png)
+*The scrim view with the first map added. You can see the "Add Map" card right next to it.*
+
+## Sharing Scrims
+There are two ways to share a scrim. If you have added the scrim to your team during the
+scrim creation process, the scrim will be visible to all members of the team. If you have not
+added the scrim to your team, you can make the scrim publically available by clicking the
+"Edit" button and toggling on "Enable Guest Mode". This will allow anyone with the link to view
+the scrim.
+
+<Callout type="warning" emoji="⚠️">
+    You are NOT able to share a scrim with someone who has not created 
+    an account on Parsertime. This is by design and will not change.
+</Callout>
+
+### Steps to make a scrim public:
+1. Click the "Edit" button on the scrim.
+![Scrim Edit Button](/scrim-edit-button.png)
+*The edit button on the scrim view.*
+
+2. Toggle on "Enable Guest Mode".
+![Enable Guest Mode](/enable-guest-mode.png)
+*The edit scrim dialog with the "Enable Guest Mode" toggled on.*
+
+3. Click "Update Scrim" to save your changes.
+
+## Editing Scrims
+You can edit a scrim by clicking the "Edit" button on the scrim view. This will allow you to
+change the scrim's name, enable guest mode, or delete the scrim.
+
+![Scrim Edit View](/scrim-edit-view.png)
+*The edit scrim page.*
+
+You can change the name of the scrim by adding a new name in the "Display Name" field.
+This is how the scrim will be displayed on the dashboard. Once your changes are made, click
+"Update Scrim" to save your changes.
+
+<Callout type="info">
+    You are currently not able to edit the maps in a scrim. This will
+    be added in a future update. If you need to change the maps in a scrim,
+    you will need to delete the scrim and create a new one.
+</Callout>
+
+## Deleting Scrims
+To delete a scrim, navigate to the scrim view and click the "Edit" button. This will open the
+edit scrim page. Click the "Delete Scrim" button to delete the scrim. This will open a dialog
+asking you to confirm the deletion. To avoid accidental deletions, you will need to type the
+name of the scrim to confirm the deletion. Once you have confirmed the deletion, the scrim will
+be removed from the database and will no longer be accessible.
+
+![Delete Scrim Dialog](/delete-scrim.png)
+*The delete scrim dialog. Notice that the delete button is disabled until you enter the name
+of the scrim.*
+
+<Callout type="error" emoji="❗">
+    Deleting a scrim is permanent and cannot be undone. Please be sure you want to delete
+    the scrim before confirming the deletion. If you are unsure, you can make the scrim private
+    by disabling guest mode.
+</Callout>
+
+Once you have deleted the scrim, it will no longer be visible on the dashboard or to anyone
+who has the link. If you have shared the scrim with your team, the scrim will be removed from
+the team's dashboard as well. You will be redirected to the dashboard after the scrim is deleted.
+
+**It is highly recommended to keep the logs for all of your scrims.** If you delete a scrim, the logs
+will be removed from the database and will no longer be accessible. The logs are measured in
+kilobytes and should not take up much space on your computer. For this reason, it is recommended
+to organize and store your logs in a safe place. If you need to delete a scrim, you can always
+re-upload the logs to create a new scrim.
