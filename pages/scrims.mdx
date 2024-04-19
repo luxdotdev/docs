@@ -44,7 +44,8 @@ the scrim.
 
 ## Editing Scrims
 You can edit a scrim by clicking the "Edit" button on the scrim view. This will allow you to
-change the scrim's name, enable guest mode, or delete the scrim.
+change the scrim's name, re-assign the scrim to a team, enable guest mode, delete maps, 
+or delete the scrim entirely.
 
 ![Scrim Edit View](/scrim-edit-view.png)
 *The edit scrim page.*
@@ -53,10 +54,33 @@ You can change the name of the scrim by adding a new name in the "Display Name" 
 This is how the scrim will be displayed on the dashboard. Once your changes are made, click
 "Update Scrim" to save your changes.
 
-<Callout type="info">
-    You are currently not able to edit the maps in a scrim. This will
-    be added in a future update. If you need to change the maps in a scrim,
-    you will need to delete the scrim and create a new one.
+### Re-assigning a Scrim to a Team
+
+To re-assign a scrim to a new team, click the "Team" selector and select the team from the menu that you 
+want to assign the scrim to. Once you have selected the team, click "Update Scrim" to save your changes.
+
+![Team Dropdown](/team-dropdown.png)
+*The team selector on the edit scrim page.*
+
+![Re-assign Scrim to Team](/reassign-scrim.png)
+*The team selector with the team selected.*
+
+### Deleting Maps
+
+To delete a map from a scrim, navigate to the "Maps" section of the scrim edit page. Click the
+name of the map you want to delete. You will see a red "Delete" button.
+
+![Delete Map Button](/delete-map.png)
+*A view of the maps section with the delete button visible.*
+
+Click the "Delete" button to remove the map from the scrim. This will open a dialog asking you
+to confirm the deletion. Once you have confirmed the deletion, the map will be removed from the
+scrim and will no longer be accessible.
+
+<Callout type="error" emoji="❗">
+    Deleting a map is permanent and cannot be undone. Please be sure you want to delete
+    the map before confirming the deletion. We recommend keeping a backup of the log files
+    in case you need to re-upload the map.
 </Callout>
 
 ## Deleting Scrims
