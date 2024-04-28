@@ -11,7 +11,7 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: "https://github.com/lucasdoell/parsertime-docs/tree/main",
   footer: {
-    text: "Parsertime Docs",
+    text: <p className="mt-6 text-xs">© {new Date().getFullYear()} lux.dev</p>,
   },
   useNextSeoProps() {
     return {
