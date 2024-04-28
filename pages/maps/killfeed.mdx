@@ -1,0 +1,70 @@
+import { Callout } from '../../components/callout'
+
+# Killfeed
+
+The killfeed is a recreation of the in-game killfeed, showing each
+kill and death that occurs during the map. It shows the time of the
+kill, the attacking player, the victim player, the method of the kill,
+and information about the fight the kill belongs to. The killfeed is
+grouped into fights. 
+
+<Callout type="info">
+    Fights are determined by finding each kill and
+    grouping them together based on the time between kills. If a kill happens within
+    15 seconds of another kill, it is considered part of the same fight. If a kill
+    happens more than 15 seconds after the last kill, it is considered a new fight.
+</Callout>
+
+The killfeed is useful for understanding the flow of the map and
+how each team is performing. It can show which players are getting
+kills, which players are dying, and how fights are unfolding. By
+analyzing the killfeed, you can see which team is winning fights 
+and which players are making the biggest impact.
+
+## Overview Stats
+
+The killfeed shows the following stats above the list of kills:
+
+- **Total Match Time**: The total time of the match.
+- **Total Kills**: The total number of kills for each team that occurred during the match.
+- **Total Deaths**: The total number of deaths for each team that occurred during the match.
+- **Fight Wins**: The total number of fights won by each team.
+
+These stats give an overview of how the map is progressing and
+which team is performing better. By looking at the total kills and
+deaths, you can see which team is getting more kills and which team
+is dying more. The fight wins stat shows which team is winning more
+fights and gaining the upper hand in the map.
+
+## Killfeed List
+
+![Killfeed](/maps/killfeed.png)
+*An example of a map killfeed showing the time, attacker, victim, method, and fight information.*
+
+Every kill that occurs during the map is grouped into fights and shown
+in the killfeed list. Each kill shows the following information:
+
+- **Time**: The time the kill occurred. This is shown in milliseconds and minutes:seconds format.
+- **Attacker**: The player who got the kill.
+- **Victim**: The player who died.
+- **Method**: The method of the kill, such as a headshot or body shot.
+- **Start**: The time of the fight start.
+- **End**: The time of the fight end.
+- **Fight Winner**: The team that won the fight.
+
+The number of the fight is listed below the list of kills in that fight.
+
+![Fight counter](/maps/fight-counter.png)
+*An example fight with an emphasis on the counter below the fight.*
+
+## Special Events
+
+In addition to regular kills, the killfeed also shows special events
+that occur during the map. These events include:
+
+- **Suicides**: When a player kills themselves.
+- **Environmental Kills**: When a player is killed by the environment, such as falling off the map.
+- **Resurrections**: When a player is resurrected after dying.
+
+![Special killfeed examples](/maps/special-killfeed-examples.png)
+*Examples of special events in the killfeed.*
