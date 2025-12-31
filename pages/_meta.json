@@ -4,6 +4,10 @@
   "scrims": "Scrims",
   "maps": "Maps",
   "stats": "Stats",
+  "team-stats": "Team Stats",
+  "csr": "Cumulative Skill Rating",
+  "profile": "Profile",
+  "settings": "Settings",
   "reporting-bugs": "Reporting Bugs",
   "known-issues": "Known Issues",
   "contact": {
