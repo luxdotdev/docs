@@ -3,5 +3,8 @@
   "killfeed": "Killfeed",
   "charts": "Charts",
   "events": "Events",
+  "replay": "Replay Viewer",
+  "heatmap": "Heatmap",
+  "tempo": "Tempo Chart",
   "compare": "Compare"
 }

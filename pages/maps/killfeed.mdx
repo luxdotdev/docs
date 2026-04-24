@@ -68,3 +68,34 @@ that occur during the map. These events include:
 
 ![Special killfeed examples](/maps/special-killfeed-examples.png)
 *Examples of special events in the killfeed.*
+
+## Round End Visualization
+
+Round boundaries now appear inline in the killfeed between fights.
+Each boundary is a 32px horizontal band with a diagonal-stripe
+pattern in the winning team's color and a centered label like
+"Round 1 — Captured by Team Name".
+
+This makes it easy to scan down the killfeed and see at a glance
+where each round ended and which team took it, without having to
+cross-reference the scoreboard or the event timeline. Round end
+visualization is available to all users, including free accounts.
+
+## Calibration Hover Card
+
+On scrims with positional data, hovering a kill row in the killfeed
+surfaces a small card showing the positions of the attacker, the
+victim, and nearby players at the time of the kill. The card draws
+on the same map calibration used by the replay viewer, so you get a
+quick spatial snapshot without leaving the killfeed.
+
+The calibration hover card is available on paid plans (Basic and
+Premium). It only appears on scrims that have positional data and on
+maps that have been calibrated.
+
+<Callout type="info">
+    Context that used to require opening the [replay viewer](/maps/replay)
+    is now one hover away. Use the hover card to scan fights quickly,
+    then jump into the replay viewer when you need to see how the
+    positions evolved before and after the kill.
+</Callout>

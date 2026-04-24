@@ -4,5 +4,9 @@
   "heroes": "Heroes",
   "trends": "Trends",
   "maps": "Maps",
-  "teamfights": "Teamfights"
+  "teamfights": "Teamfights",
+  "simulator": "Win Probability Simulator",
+  "ultimate-impact": "Ultimate & Ability Impact",
+  "map-comparison": "Map Comparison",
+  "player-targets": "Player Targets"
 }
